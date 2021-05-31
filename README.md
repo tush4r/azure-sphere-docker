@@ -8,12 +8,16 @@ Azure Sphere Docker creates a container to authenticate, compile code targetted 
 
 ## Installation
 
-Requires docker to run.
-
 ```sh
 cd <path_to_dockerfile_directory>
 docker build .
 ```
+Or pull the docker image: 
+
+```
+docker pull tush4r1/azuresphere_ubuntu
+```
+
 ## License
 
 MIT
